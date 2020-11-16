@@ -1,0 +1,113 @@
+"n01807496": "http://www.wikidata.org/entity/Q732775", partridge -> grey partridge
+"n02276258": "http://www.wikidata.org/entity/Q156454", admiral -> red admiral
+"n02978881": "http://www.wikidata.org/entity/Q149757", casette -> audio cassette
+"n03394916": "http://www.wikidata.org/entity/Q163759", french horn -> horn
+"n02096437": "http://www.wikidata.org/entity/Q38336", exact
+"n01847000": "http://www.wikidata.org/entity/Q3736439", drake -> duck
+"n01818515": "http://www.wikidata.org/entity/Q219035", exact
+"n02802426": "http://www.wikidata.org/entity/Q5372", exact
+"n04136333": "http://www.wikidata.org/entity/Q322781", exact
+"n02389026": "http://www.wikidata.org/entity/Q17116125", exact
+"n02094114": "http://www.wikidata.org/entity/Q38940", exact
+"n03000247": "http://www.wikidata.org/entity/Q659631", exact
+"n02113023": "http://www.wikidata.org/entity/Q38783", exact
+"n02113023": "http://www.wikidata.org/entity/Q38783", exact
+"n03443371": "http://www.wikidata.org/entity/Q14920412", goblet -> stemware
+"n02256656": "http://www.wikidata.org/entity/Q1947892", exact
+"n03710193": "http://www.wikidata.org/entity/Q49844", exact
+"n04482393": "http://www.wikidata.org/entity/Q536135", exact? check
+"n03062245": "http://www.wikidata.org/entity/Q1105339", exact
+"n03127925": "http://www.wikidata.org/entity/Q605384", exact?
+"n02264363": "http://www.wikidata.org/entity/Q156438", exact
+"n02087394": "http://www.wikidata.org/entity/Q39026", exact
+"n02110063": "http://www.wikidata.org/entity/Q21206", exact
+"n03706229": "http://www.wikidata.org/entity/Q34735", magnetic compass -> compass
+"n02111129": "http://www.wikidata.org/entity/Q38487", exact
+"n02892767": "http://www.wikidata.org/entity/Q13716", exact
+"n03724870": "http://www.wikidata.org/entity/Q161524", exact
+"n02169497": "http://www.wikidata.org/entity/Q193407", exact
+"n02536864": "http://www.wikidata.org/entity/Q934874", exact
+"n01728920": "http://www.wikidata.org/entity/Q2704229", exact
+"n07615774": "http://www.wikidata.org/entity/Q855373", exact
+"n04344873": "http://www.wikidata.org/entity/Q19953097", studio coach, day bed -> sofa bed
+"n01770393": "http://www.wikidata.org/entity/Q19125", exact
+"n03792782": "http://www.wikidata.org/entity/Q223705", exact
+"n02107574": "http://www.wikidata.org/entity/Q38121", exact
+"n03498962": "http://www.wikidata.org/entity/Q672890", exact
+"n03290653": "http://www.wikidata.org/entity/Q5380479", exact
+"n01819313": "http://www.wikidata.org/entity/Q207107", exact
+"n07875152": "http://www.wikidata.org/entity/Q4382275", exact?
+"n07714571": "http://www.wikidata.org/entity/Q35051", head cabbage -> white cabbage
+"n01871265": "http://www.wikidata.org/entity/Q7378", tusker -> elephant
+"n02091032": "http://www.wikidata.org/entity/Q38503", exact
+"n04355338": "http://www.wikidata.org/entity/Q80793", exact
+"n02102318": "http://www.wikidata.org/entity/Q4227301", exact?
+"n02444819": "http://www.wikidata.org/entity/Q200184", exact
+"n02437312": "http://www.wikidata.org/entity/Q71516", exact
+"n02488291": "http://www.wikidata.org/entity/Q857471", exact?
+"n02526121": "http://www.wikidata.org/entity/Q128685", exact
+"n02865351": "http://www.wikidata.org/entity/Q785480", exact
+"n02835271": "http://www.wikidata.org/entity/Q948851", exact
+"n03961711": "http://www.wikidata.org/entity/Q1469010", plate rack -> dish drying cabinet
+"n01496331": "http://www.wikidata.org/entity/Q41317", exact
+"n01770081": "http://www.wikidata.org/entity/Q19116", exact
+"n02177972": "http://www.wikidata.org/entity/Q383963", exact
+"n02837789": "http://www.wikidata.org/entity/Q14090", exact
+"n01924916": "http://www.wikidata.org/entity/Q124900", exact
+"n02091244": "http://www.wikidata.org/entity/Q37755", exact
+"n04487394": "http://www.wikidata.org/entity/Q8350", exact
+"n02090622": "http://www.wikidata.org/entity/Q37866", exact
+"n03710637": "http://www.wikidata.org/entity/Q2027544", exact
+"n02097209": "http://www.wikidata.org/entity/Q39605", exact
+"n02321529": "http://www.wikidata.org/entity/Q127470", exact
+"n02095314": "http://www.wikidata.org/entity/Q39491", exact
+"n13040303": "http://www.wikidata.org/entity/Q784850", exact
+"n02056570": "http://www.wikidata.org/entity/Q182209", exact
+"n04243546": "http://www.wikidata.org/entity/Q33972", exact
+"n01739381": "http://www.wikidata.org/entity/Q619087", exact
+"n02480855": "http://www.wikidata.org/entity/Q36611", exact
+"n01773157": "http://www.wikidata.org/entity/Q2556499", exact
+"n01740131": "http://www.wikidata.org/entity/Q922205", exact
+"n02101556": "http://www.wikidata.org/entity/Q37851", exact
+"n02457408": "http://www.wikidata.org/entity/Q185167", exact
+"n02134418": "http://www.wikidata.org/entity/Q145016", exact
+"n01797886": "http://www.wikidata.org/entity/Q19058", exact
+"n02799071": "http://www.wikidata.org/entity/Q791187", exact
+"n01985128": "http://www.wikidata.org/entity/Q1211742",exact
+"n02058221": "http://www.wikidata.org/entity/Q55805", exact
+"n01582220": "http://www.wikidata.org/entity/Q2495957", exact
+"n02097298": "http://www.wikidata.org/entity/Q39035", exact
+"n02088364": "http://www.wikidata.org/entity/Q21102", exact
+"n03777568": "http://www.wikidata.org/entity/Q182323", exact
+"n02486261": "http://www.wikidata.org/entity/Q504496", exact
+"n01694178": "http://www.wikidata.org/entity/Q810152", exact? Two candidates, also http://www.wikidata.org/entity/Q577924
+"n02328150": "http://www.wikidata.org/entity/Q542500", exact
+"n03379051": "http://www.wikidata.org/entity/Q1245430", exact
+"n03538406": "http://www.wikidata.org/entity/Q235356", horse cart -> carriage
+"n01687978": "http://www.wikidata.org/entity/Q1153386", exact
+"n03995372": "http://www.wikidata.org/entity/Q58964", power drill -> drill
+"n02795169": "http://www.wikidata.org/entity/Q10289", exact
+"n02504458": "http://www.wikidata.org/entity/Q185038", exact
+"n03042490": "http://www.wikidata.org/entity/Q899959", exact
+"n02791124": "http://www.wikidata.org/entity/Q2947719", exact
+"n01882714": "http://www.wikidata.org/entity/Q36101", exact
+"n07768694": "http://www.wikidata.org/entity/Q13188", exact
+"n01756291": "http://www.wikidata.org/entity/Q1476343", exact
+"n07584110": "http://www.wikidata.org/entity/Q2082064", exact
+"n02110627": "http://www.wikidata.org/entity/Q7254", exact
+"n01693334": "http://www.wikidata.org/entity/Q307047", exact
+"n02112018": "http://www.wikidata.org/entity/Q39579", exact
+"n01560419": "http://www.wikidata.org/entity/Q188854", exact
+
+
+TODOs
+
+- Change wiki to entitiy!
+- Check http as well
+- You'll have to check already linked entities as well...
+imagenet images <--> synset name <--> wikidata entity
+
+Notes:
+- Interesting example: Baseball in wordnet means baseball ball (contrary to wiki)
+- home theater is home cinema
+- tusker vs african elephant, male duck vs duck
