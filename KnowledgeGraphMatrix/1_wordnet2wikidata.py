@@ -37,3 +37,5 @@ for label in labels:
 
 with open('mappings_wikidata.json', 'w') as fp:
     json.dump(mappings, fp)
+
+# len([v for k,v in mappings.items() if v is not None]) # 461
