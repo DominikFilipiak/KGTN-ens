@@ -198,6 +198,50 @@
 "n03272562": "http://www.wikidata.org/entity/Q625151", exact
 "n02490219": "http://www.wikidata.org/entity/Q19829485", exact
 "n02910353": "http://www.wikidata.org/entity/Q1135567", exact
+"n02025239": "http://www.wikidata.org/entity/Q26892", exact
+"n03764736": "http://www.wikidata.org/entity/Q201573", exact
+"n02092339": "http://www.wikidata.org/entity/Q38965", exact
+"n01704323": "http://www.wikidata.org/entity/Q14384", exact
+"n04111531": "http://www.wikidata.org/entity/Q22847", exact
+"n01667778": "http://www.wikidata.org/entity/Q7703292", exact
+"n03717622": "http://www.wikidata.org/entity/Q652657", exact
+"n04277352": "http://www.wikidata.org/entity/Q213761", exact
+"n02101006": "http://www.wikidata.org/entity/Q38301", exact
+"n09428293": "http://www.wikidata.org/entity/Q93352", exact
+"n03100240": "http://www.wikidata.org/entity/Q55989", exact
+"n03791053": "http://www.wikidata.org/entity/Q193234", exact
+"n02097658": "http://www.wikidata.org/entity/Q37524", exact
+"n03796401": "http://www.wikidata.org/entity/Q193468", moving van -> van
+"n03770679": "http://www.wikidata.org/entity/Q223189", exact
+"n02167151": "http://www.wikidata.org/entity/Q27046", exact
+"n06794110": "http://www.wikidata.org/entity/Q170285", exact
+"n01917289": "http://www.wikidata.org/entity/Q43185455", exact
+"n01855672": "http://www.wikidata.org/entity/Q16529344", exact
+"n02096177": "http://www.wikidata.org/entity/Q37888", exact
+"n04258138": "http://www.wikidata.org/entity/Q837515",  solar dish, solar collector, solar furnace -> solar collector, could be solar furnace
+"n03016953": "http://www.wikidata.org/entity/Q2746233",  chiffonier, commode -> chiffonier, could be commode
+"n02138441": "http://www.wikidata.org/entity/Q134015", exact
+"n02091831": "http://www.wikidata.org/entity/Q39108", exact
+"n01768244": "http://www.wikidata.org/entity/Q17170", exact
+"n02410509": "http://www.wikidata.org/entity/Q18099", exact
+"n02114548": "http://www.wikidata.org/entity/Q216441", white wolf, Arctic wolf, Canis lupus tundrarum -> Arctic wolf, could be Canis lupus tundrarum
+"n04371430": "http://www.wikidata.org/entity/Q3895873", exact
+"n02027492": "http://www.wikidata.org/entity/Q26650", exact
+"n04604644": "http://www.wikidata.org/entity/Q7578604", exact
+"n02113712": "http://www.wikidata.org/entity/Q38904", miniature poodle -> poodle
+"n02701002": "http://www.wikidata.org/entity/Q180481", exact
+"n03530642": "http://www.wikidata.org/entity/Q123339", exact
+"n02009912": "http://www.wikidata.org/entity/Q130730", exact
+"n02105855": "http://www.wikidata.org/entity/Q39058", exact
+"n01980166": "http://www.wikidata.org/entity/Q1329937", exact
+"n02106382": "http://www.wikidata.org/entity/Q37896", exact
+"n02497673": "http://www.wikidata.org/entity/Q185385", exact
+"n04461696": "http://www.wikidata.org/entity/Q332050", exact
+"n03476684": "http://www.wikidata.org/entity/Q2885586", exact
+"n02108089": "http://www.wikidata.org/entity/Q38496", exact
+"n03929855": "http://www.wikidata.org/entity/Q163733", exact
+"n13133613": "http://www.wikidata.org/entity/Q587369", Ear, spike, capitulum -> Pseudanthium (!)
+"n04458633": "http://www.wikidata.org/entity/Q83809", exact
 
 
 TODOs
@@ -215,3 +259,4 @@ Notes:
 - tusker vs african elephant, male duck vs duck
 - television n04404412 -> television set
 - green mamba -> western green mamba, but can be eastern (not likely tho?)
+- moving van n03796401 -> van!!
