@@ -98,6 +98,106 @@
 "n01693334": "http://www.wikidata.org/entity/Q307047", exact
 "n02112018": "http://www.wikidata.org/entity/Q39579", exact
 "n01560419": "http://www.wikidata.org/entity/Q188854", exact
+"n02607072": "http://www.wikidata.org/entity/Q472616", exact
+"n02493793": "http://www.wikidata.org/entity/Q258244", exact
+"n02669723": "http://www.wikidata.org/entity/Q1349227", academic gown, academic robe, judge's robe -> academic dress
+"n01644373": "http://www.wikidata.org/entity/Q1144302", exact
+"n02492660": "http://www.wikidata.org/entity/Q504247", exact
+"n02894605": "http://www.wikidata.org/entity/Q215635", breakwater, groin, groyne, mole, bulwark, seawall, jetty -> breakwater
+"n04404412": "http://www.wikidata.org/entity/Q8075", exact
+"n02487347": "http://www.wikidata.org/entity/Q177601", exact
+"n04505470": "http://www.wikidata.org/entity/Q46335", typewriter keyboard -> typewriter
+"n02730930": "http://www.wikidata.org/entity/Q273831", exact
+"n03837869": "http://www.wikidata.org/entity/Q170980", exact
+"n01749939": "http://www.wikidata.org/entity/Q741280", green mamba -> western green mamba
+"n02950826": "http://www.wikidata.org/entity/Q81103", exact
+"n02108000": "http://www.wikidata.org/entity/Q37986", exact
+"n02206856": "http://www.wikidata.org/entity/Q7391", bee -> Anthophila
+"n03697007": "http://www.wikidata.org/entity/Q505213", exact
+"n02443484": "http://www.wikidata.org/entity/Q402885", exact
+"n04040759": "http://www.wikidata.org/entity/Q1572702", exact? radiator might be too broad
+"n02088632": "http://www.wikidata.org/entity/Q37568", exact
+"n02280649": "http://www.wikidata.org/entity/Q27653", exact
+"n02086910": "http://www.wikidata.org/entity/Q38115", exact
+"n02129165": "http://www.wikidata.org/entity/Q140", exact
+"n02110341": "http://www.wikidata.org/entity/Q17504", exact
+"n03743016": "http://www.wikidata.org/entity/Q164240", exact
+"n02408429": "http://www.wikidata.org/entity/Q42710", exact
+"n01755581": "http://www.wikidata.org/entity/Q744532",  diamondback, diamondback rattlesnake, Crotalus adamanteus -> eastern diamondback rattlesn
+"n03785016": "http://www.wikidata.org/entity/Q201783", exact
+"n01824575": "http://www.wikidata.org/entity/Q657775", exact
+"n02268443": "http://www.wikidata.org/entity/Q80066", exact
+"n02012849": "http://www.wikidata.org/entity/Q25365", exact? crane -> gruidae
+"n07734744": "http://www.wikidata.org/entity/Q83093", exact
+"n01774750": "http://www.wikidata.org/entity/Q213383", exact
+"n07565083": "http://www.wikidata.org/entity/Q658274", exact
+"n03599486": "http://www.wikidata.org/entity/Q182634", exact
+"n02107142": "http://www.wikidata.org/entity/Q38358", exact
+"n04041544": "http://www.wikidata.org/entity/Q159391", exact
+"n02115641": "http://www.wikidata.org/entity/Q38584", exact
+"n02391049": "http://www.wikidata.org/entity/Q32789", exact
+"n02111500": "http://www.wikidata.org/entity/Q37803", exact
+"n01806567": "http://www.wikidata.org/entity/Q6072584", exact
+"n07760859": "http://www.wikidata.org/entity/Q3354240", exact
+"n02106662": "http://www.wikidata.org/entity/Q38280", exact
+"n02279972": "http://www.wikidata.org/entity/Q212398", exact
+"n02002724": "http://www.wikidata.org/entity/Q25398", exact
+"n03481172": "http://www.wikidata.org/entity/Q25294", exact
+"n02704792": "http://www.wikidata.org/entity/Q474698", exact
+"n01955084": "http://www.wikidata.org/entity/Q188906", exact
+"n02007558": "http://www.wikidata.org/entity/Q41994", exact
+"n03976467": "http://www.wikidata.org/entity/Q313695", Polaroid camera, Polaroid Land camera -> instant camera
+"n01748264": "http://www.wikidata.org/entity/Q192754", exact
+"n01843065": "http://www.wikidata.org/entity/Q212942", exact
+"n07720875": "http://www.wikidata.org/entity/Q1548030", exact
+"n04192698": "http://www.wikidata.org/entity/Q1766706", exact
+"n02096585": "http://www.wikidata.org/entity/Q37550", exact
+"n03388549": "http://www.wikidata.org/entity/Q3256522", exact
+"n07930864": "http://www.wikidata.org/entity/Q81727", exact
+"n02514041": "http://www.wikidata.org/entity/Q17166003", exact
+"n02281787": "http://www.wikidata.org/entity/Q158717", exact
+"n03775071": "http://www.wikidata.org/entity/Q169031", mitten -> glove
+"n03450230": "http://www.wikidata.org/entity/Q1036729", exact
+"n02086079": "http://www.wikidata.org/entity/Q38959", exact
+"n01773549": "http://www.wikidata.org/entity/Q1306991", exact
+"n04330267": "http://www.wikidata.org/entity/Q182995", exact
+"n03110669": "http://www.wikidata.org/entity/Q202027", cornet, horn, trumpet, trump -> cornet
+"n02123159": "http://www.wikidata.org/entity/Q1474329", tiger cat -> tabby cat
+"n02107683": "http://www.wikidata.org/entity/Q37608", exact
+"n02086646": "http://www.wikidata.org/entity/Q38132", exact?
+"n04201297": "http://www.wikidata.org/entity/Q1069525", exact
+"n02088094": "http://www.wikidata.org/entity/Q21080", exact
+"n02094433": "http://www.wikidata.org/entity/Q39330", exact
+"n02396427": "http://www.wikidata.org/entity/Q58697", exact
+"n02096051": "http://www.wikidata.org/entity/Q37617", exact
+"n02120505": "http://www.wikidata.org/entity/Q215250", exact
+"n02037110": "http://www.wikidata.org/entity/Q27515", exact
+"n02093991": "http://www.wikidata.org/entity/Q38644", exact
+"n01978455": "http://www.wikidata.org/entity/Q590283", exact
+"n03649909": "http://www.wikidata.org/entity/Q260521", exact
+"n02641379": "http://www.wikidata.org/entity/Q643373", exact
+"n03899768": "http://www.wikidata.org/entity/Q737988", patio, terrace -> patio
+"n02493509": "http://www.wikidata.org/entity/Q19816406", exact
+"n03832673": "http://www.wikidata.org/entity/Q3962", exact? notebook -> laptop
+"n02116738": "http://www.wikidata.org/entity/Q173651", exact
+"n02111277": "http://www.wikidata.org/entity/Q38706", exact
+"n02643566": "http://www.wikidata.org/entity/Q475711", exact
+"n02099712": "http://www.wikidata.org/entity/Q38726", exact
+"n02097474": "http://www.wikidata.org/entity/Q38796", exact
+"n07695742": "http://www.wikidata.org/entity/Q160525", exact
+"n02699494": "http://www.wikidata.org/entity/Q101687", exact
+"n12144580": "http://www.wikidata.org/entity/Q11575", exact
+"n04336792": "http://www.wikidata.org/entity/Q838960", exact
+"n02488702": "http://www.wikidata.org/entity/Q358813", exact? colobus, colobus monkey -> Black-and-white colobus
+"n02128385": "http://www.wikidata.org/entity/Q34706", exact
+"n04332243": "http://www.wikidata.org/entity/Q381155", exact
+"n01806143": "http://www.wikidata.org/entity/Q201251", peacock -> peafowl
+"n02089867": "http://www.wikidata.org/entity/Q37514", Walker hound, Walker foxhound -> American foxhound
+"n02111889": "http://www.wikidata.org/entity/Q39002", exact
+"n01675722": "http://www.wikidata.org/entity/Q2509308", exact
+"n03272562": "http://www.wikidata.org/entity/Q625151", exact
+"n02490219": "http://www.wikidata.org/entity/Q19829485", exact
+"n02910353": "http://www.wikidata.org/entity/Q1135567", exact
 
 
 TODOs
@@ -106,8 +206,12 @@ TODOs
 - Check http as well
 - You'll have to check already linked entities as well...
 imagenet images <--> synset name <--> wikidata entity
+- maybe it will be worthy to check NER toools how good they are in this and compare with manual annotation
+- wordnet 3.0 vs wordnet 3.1
 
 Notes:
 - Interesting example: Baseball in wordnet means baseball ball (contrary to wiki)
 - home theater is home cinema
 - tusker vs african elephant, male duck vs duck
+- television n04404412 -> television set
+- green mamba -> western green mamba, but can be eastern (not likely tho?)
