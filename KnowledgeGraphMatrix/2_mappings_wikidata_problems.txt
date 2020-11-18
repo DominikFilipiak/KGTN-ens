@@ -57,7 +57,7 @@
 "n02091244": "http://www.wikidata.org/entity/Q37755", exact
 "n04487394": "http://www.wikidata.org/entity/Q8350", exact
 "n02090622": "http://www.wikidata.org/entity/Q37866", exact
-"n03710637": "http://www.wikidata.org/entity/Q2027544", exact
+"n03710637": "http://www.wikidata.org/wiki/Q1820061", exact
 "n02097209": "http://www.wikidata.org/entity/Q39605", exact
 "n02321529": "http://www.wikidata.org/entity/Q127470", exact
 "n02095314": "http://www.wikidata.org/entity/Q39491", exact
@@ -242,6 +242,160 @@
 "n03929855": "http://www.wikidata.org/entity/Q163733", exact
 "n13133613": "http://www.wikidata.org/entity/Q587369", Ear, spike, capitulum -> Pseudanthium (!)
 "n04458633": "http://www.wikidata.org/entity/Q83809", exact
+"n02095570": "http://www.wikidata.org/wiki/Q38110", exact
+"n02229544": "http://www.wikidata.org/wiki/Q98957255", exact
+"n01820546": "http://www.wikidata.org/wiki/Q15274050", lorikeet -> loriini, can be rainbow lorikeet as well
+"n01984695": "http://www.wikidata.org/wiki/Q916760", exact
+"n01667114": "http://www.wikidata.org/wiki/Q2500468", exact
+"n02123597": "http://www.wikidata.org/wiki/Q42604", exact
+"n01689811": "http://www.wikidata.org/wiki/Q2624353", exact?
+"n03992509": "http://www.wikidata.org/wiki/Q1128390", exact
+"n02009229": "http://www.wikidata.org/wiki/Q371028", exact
+"n03485407": "http://www.wikidata.org/wiki/Q1211386", exact
+"n03803284": "http://www.wikidata.org/wiki/Q1369301", exact
+"n07715103": "http://www.wikidata.org/wiki/Q7537", exact
+"n01608432": "http://www.wikidata.org/wiki/Q42861", exact
+"n04509417": "http://www.wikidata.org/wiki/Q223924", unicycle, monocycle -> unicycle
+"n02105412": "http://www.wikidata.org/wiki/Q37520", exact
+"n03944341": "http://www.wikidata.org/wiki/Q1197726", exact
+"n02119022": "http://www.wikidata.org/wiki/Q8332", exact
+"n01945685": "http://www.wikidata.org/wiki/Q1953597", exact
+"n07730033": "http://www.wikidata.org/wiki/Q7186137", exact
+"n04326547": "http://www.wikidata.org/wiki/Q979531", exact
+"n02093647": "http://www.wikidata.org/wiki/Q37582", exact
+"n04026417": "http://www.wikidata.org/wiki/Q467505", exact
+"n01729322": "http://www.wikidata.org/wiki/Q5877356", hognose snake, puff adder, sand viper -> hognose
+"n02190166": "http://www.wikidata.org/wiki/Q25312", exact
+"n07716358": "http://www.wikidata.org/wiki/Q7533", exact
+"n02091635": "http://www.wikidata.org/wiki/Q38922", exact
+"n02174001": "http://www.wikidata.org/wiki/Q641142", exact
+"n02106166": "http://www.wikidata.org/wiki/Q37710", exact
+"n04579145": "http://www.wikidata.org/wiki/Q2413314", whisky jug -> jug
+"n02132136": "http://www.wikidata.org/wiki/Q36341", exact
+"n02356798": "http://www.wikidata.org/wiki/Q694296", exact
+"n02489166": "http://www.wikidata.org/wiki/Q192029", exact
+"n03133878": "http://www.wikidata.org/wiki/Q642345", exact
+"n07932039": "http://www.wikidata.org/wiki/Q477374", exact
+"n03825788": "http://www.wikidata.org/wiki/Q797906", nipple -> baby bottle, nipple exist in PL wikidata: http://www.wikidata.org/wiki/Q9338676
+"n02130308": "http://www.wikidata.org/wiki/Q23907", exact
+"n01735189": "http://www.wikidata.org/wiki/Q1149509", garter snake, grass snake -> garter snake
+"n01828970": "http://www.wikidata.org/wiki/Q183147", exact
+"n02277742": "http://www.wikidata.org/wiki/Q161520", exact
+"n01877812": "http://www.wikidata.org/wiki/Q623169", exact
+"n04355933": "http://www.wikidata.org/wiki/Q217541", exact
+"n07860988": "http://www.wikidata.org/wiki/Q178024", exact
+"n02108551": "http://www.wikidata.org/wiki/Q39322", exact
+"n04311004": "http://www.wikidata.org/wiki/Q5592057", steel arch bridge -> through arch bridge
+"n02113186": "http://www.wikidata.org/wiki/Q29072", exact
+"n03482405": "http://www.wikidata.org/wiki/Q13479587", exact
+"n02099849": "http://www.wikidata.org/wiki/Q29084", exact
+"n01817953": "http://www.wikidata.org/wiki/Q220328", exact
+"n12998815": "http://www.wikidata.org/wiki/Q2384195", exact
+"n02017213": "http://www.wikidata.org/wiki/Q187902", European gallinule, Porphyrio porphyrio -> Porphyrio porphyrio
+"n02013706": "http://www.wikidata.org/wiki/Q725276", limpkin, aramus pictus -> limpkin
+"n02727426": "http://www.wikidata.org/wiki/Q857628", exact
+"n03710721": "http://www.wikidata.org/wiki/Q2027544", exact
+"n02963159": "http://www.wikidata.org/wiki/Q877140", exact
+"n01616318": "http://www.wikidata.org/wiki/Q123120", exact
+"n02510455": "http://www.wikidata.org/wiki/Q33602", exact
+"n03877472": "http://www.wikidata.org/wiki/Q193204", exact
+"n02168699": "http://www.wikidata.org/wiki/Q205295", exact
+"n02454379": "http://www.wikidata.org/wiki/Q47867", exact
+"n03459775": "http://www.wikidata.org/wiki/Q1796937", exact
+"n02817516": "http://www.wikidata.org/wiki/Q1019110", exact
+"n07579787": "http://www.wikidata.org/wiki/Q57216", exact
+"n02098413": "http://www.wikidata.org/wiki/Q38352", exact
+"n02114855": "http://www.wikidata.org/wiki/Q44299", exact
+"n07717410": "http://www.wikidata.org/wiki/Q2975815", exact
+"n04004767": "http://www.wikidata.org/wiki/Q82", exact
+"n07717556": "http://www.wikidata.org/wiki/Q4169287", exact
+"n13044778": "http://www.wikidata.org/wiki/Q980655", exact
+"n03026506": "http://www.wikidata.org/wiki/Q2735638", exact
+"n02606052": "http://www.wikidata.org/wiki/Q729897", exact
+"n02089078": "http://www.wikidata.org/wiki/Q37537", exact
+"n04310018": "http://www.wikidata.org/wiki/Q171043", exact
+"n01744401": "http://www.wikidata.org/wiki/Q764797", exact
+"n09246464": "http://www.wikidata.org/wiki/Q107679", exact
+"n04275548": "http://www.wikidata.org/wiki/Q188691", exact
+"n04008634": "http://www.wikidata.org/wiki/Q49393", projectile, missile -> projectile
+"n03197337": "http://www.wikidata.org/wiki/Q9389983", exact
+"n02104365": "http://www.wikidata.org/wiki/Q39010", exact
+"n01631663": "http://www.wikidata.org/wiki/Q10980893", eft -> newt
+"n02104029": "http://www.wikidata.org/wiki/Q38467", exact
+"n07590611": "http://www.wikidata.org/wiki/Q846849", exact
+"n02108422": "http://www.wikidata.org/wiki/Q38080", exact
+"n04523525": "http://www.wikidata.org/wiki/Q189771", exact
+"n02110806": "http://www.wikidata.org/wiki/Q37871", exact
+"n07831146": "http://www.wikidata.org/wiki/Q876624", exact
+"n09399592": "http://www.wikidata.org/wiki/Q1245089", promontory, headland, head, foreland -> promontory
+"n03131574": "http://www.wikidata.org/wiki/Q412770", exact
+"n01950731": "http://www.wikidata.org/wiki/Q7440127", exact
+"n01843383": "http://www.wikidata.org/wiki/Q1325045", exact
+"n02006656": "http://www.wikidata.org/wiki/Q208488", exact
+"n01734418": "http://www.wikidata.org/wiki/Q1364033", exact
+"n03089624": "http://www.wikidata.org/wiki/Q3574069", exact
+"n04599235": "http://www.wikidata.org/wiki/Q42329", exact
+"n03866082": "http://www.wikidata.org/wiki/Q7113974", exact
+"n04435653": "http://www.wikidata.org/wiki/Q268547", tile roof -> roof tile
+"n02259212": "http://www.wikidata.org/wiki/Q244452", exact
+"n01729977": "http://www.wikidata.org/wiki/Q783773", exact
+"n02002556": "http://www.wikidata.org/wiki/Q25352", exact
+"n09332890": "http://www.wikidata.org/wiki/Q468756", lakeshore -> shore
+"n02437616": "http://www.wikidata.org/wiki/Q42569", exact
+"n02109961": "http://www.wikidata.org/wiki/Q3244349", exact
+"n02011460": "http://www.wikidata.org/wiki/Q855133", exact
+"n04613696": "http://www.wikidata.org/wiki/Q15680", exact
+"n02397096": "http://www.wikidata.org/wiki/Q3645260", exact
+"n02165105": "http://www.wikidata.org/wiki/Q196140", exact
+"n03014705": "http://www.wikidata.org/wiki/Q366134", exact
+"n02101388": "http://www.wikidata.org/wiki/Q38156", exact
+"n02325366": "http://www.wikidata.org/wiki/Q748448", exact
+"n02095889": "http://www.wikidata.org/wiki/Q39068", exact
+"n07718747": "http://www.wikidata.org/wiki/Q23041430", exact
+"n02091467": "http://www.wikidata.org/wiki/Q38803", exact
+"n02115913": "http://www.wikidata.org/wiki/Q132585", exact
+"n02110185": "http://www.wikidata.org/wiki/Q39295", exact
+"n01742172": "http://www.wikidata.org/wiki/Q215388", exact
+"n12985857": "http://www.wikidata.org/wiki/Q5129585", exact
+"n02097130": "http://www.wikidata.org/wiki/Q38688", exact
+"n02422699": "http://www.wikidata.org/wiki/Q132576", exact
+"n01514859": "http://www.wikidata.org/wiki/Q780", hen -> chicken
+"n04254120": "http://www.wikidata.org/wiki/Q377647", exact
+"n01944390": "http://www.wikidata.org/wiki/Q308841", exact
+"n04465501": "http://www.wikidata.org/wiki/Q39495", exact
+"n04229816": "http://www.wikidata.org/wiki/Q211003", exact
+"n02114712": "http://www.wikidata.org/wiki/Q200442", exact
+"n02100877": "http://www.wikidata.org/wiki/Q38761", exact
+"n02129604": "http://www.wikidata.org/wiki/Q19939", exact
+"n01685808": "http://www.wikidata.org/wiki/Q1004429", whiptail, whiptail lizard -> Cnemidophorus
+"n04346328": "http://www.wikidata.org/wiki/Q180987", exact
+"n02102973": "http://www.wikidata.org/wiki/Q38162", exact
+"n09835506": "http://www.wikidata.org/wiki/Q7217606", exact? maps to category
+"n01872401": "http://www.wikidata.org/wiki/Q21824", exact
+"n02441942": "http://www.wikidata.org/wiki/Q28521", exact
+"n03873416": "http://www.wikidata.org/wiki/Q599797", exact
+"n02113624": "http://www.wikidata.org/wiki/Q38904", toy poodle -> poodle
+"n11939491": "http://www.wikidata.org/wiki/Q26158", exact
+"n02108915": "http://www.wikidata.org/wiki/Q29149", exact
+"n02137549": "http://www.wikidata.org/wiki/Q80479", exact
+"n02445715": "http://www.wikidata.org/wiki/Q43604020", exact
+"n02504013": "http://www.wikidata.org/wiki/Q591305", exact
+"n02113799": "http://www.wikidata.org/wiki/Q38904", standard poodle -> poodle
+"n02112706": "http://www.wikidata.org/wiki/Q38889", exact
+"n02814860": "http://www.wikidata.org/wiki/Q39715", exact
+"n02099429": "http://www.wikidata.org/wiki/Q38375", exact
+"n01644900": "http://www.wikidata.org/wiki/Q2925426", exact?
+"n02093859": "http://www.wikidata.org/wiki/Q38025", exact
+"n04429376": "http://www.wikidata.org/wiki/Q189233", exact
+"n01580077": "http://www.wikidata.org/wiki/Q10968813", exact
+"n02708093": "http://www.wikidata.org/wiki/Q485071", exact
+"n02088238": "http://www.wikidata.org/wiki/Q37716", exact
+"n03045698": "http://www.wikidata.org/wiki/Q516992", exact
+"n03930630": "http://www.wikidata.org/wiki/Q215601", exact
+"n02112137": "http://www.wikidata.org/wiki/Q29013", exact
+"n02124075": "http://www.wikidata.org/wiki/Q7295", exact
+"n04067472": "http://www.wikidata.org/wiki/Q1572168", exact
+"n02395406": "http://www.wikidata.org/wiki/Q787", exact?
 
 
 TODOs
@@ -252,6 +406,7 @@ TODOs
 imagenet images <--> synset name <--> wikidata entity
 - maybe it will be worthy to check NER toools how good they are in this and compare with manual annotation
 - wordnet 3.0 vs wordnet 3.1
+- imagenet browser http://146.48.86.29/edge-mac/imgs/n02113624/
 
 Notes:
 - Interesting example: Baseball in wordnet means baseball ball (contrary to wiki)
@@ -260,3 +415,9 @@ Notes:
 - television n04404412 -> television set
 - green mamba -> western green mamba, but can be eastern (not likely tho?)
 - moving van n03796401 -> van!!
+- ambiguous maillot: "n03710637" (maillot - tights for dancers or gymnasts) -> "http://www.wikidata.org/wiki/Q1820061" (leotard), "n03710721" (maillot, tanksuit - a woman's one-piece bathing suit) -> "http://www.wikidata.org/wiki/Q2027544" (maillot)
+- nipple exist in PL but there is no information
+- digital watch exist in PL and there is information
+- confectionery in wordnet means confectionery store
+- "n02113624": "http://www.wikidata.org/wiki/Q38904", toy poodle -> poodle (toy stands for size) (also "n02113799": "http://www.wikidata.org/wiki/Q38904", standard poodle -> poodle)
+
