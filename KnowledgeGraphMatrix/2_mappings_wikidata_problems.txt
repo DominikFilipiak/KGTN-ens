@@ -397,6 +397,52 @@
 "n04067472": "http://www.wikidata.org/entity/Q1572168", exact
 "n02395406": "http://www.wikidata.org/entity/Q787", exact?
 "n04285008": "http://www.wikidata.org/entitiy/Q274586", exact
+"n03792972": "http://www.wikidata.org/entity/Q170544", mountain tent -> tent
+"n02105641": "http://www.wikidata.org/entity/Q37704", exact
+"n02091134": "http://www.wikidata.org/entity/Q39122", exact
+"n04065272": "http://www.wikidata.org/entity/Q746448", exact
+"n04335435": "http://www.wikidata.org/entity/Q3407658", exact
+"n03207743": "http://www.wikidata.org/entity/Q1370169", exact
+"n02107908": "http://www.wikidata.org/entity/Q37697", exact
+"n02100236": "http://www.wikidata.org/entity/Q38084", exact
+"n03976657": "http://www.wikidata.org/entity/Q2180428", exact
+"n01773797": "http://www.wikidata.org/entity/Q337509", exact
+"n02112350": "http://www.wikidata.org/entity/Q38843", exact
+"n13037406": "http://www.wikidata.org/entity/Q580989", exact
+"n02484975": "http://www.wikidata.org/entity/Q255571", exact
+"n03998194": "http://www.wikidata.org/entity/Q956956", exact
+"n02443114": "http://www.wikidata.org/entity/Q26582", polecat, fitch, foulmart, foumart, Mustela putorius -> Mustela putorius
+"n03590841": "http://www.wikidata.org/entity/Q221009", exact
+"n02120079": "http://www.wikidata.org/entity/Q82738", exact
+"n03223299": "http://www.wikidata.org/entity/Q1136834", doormat -> mat
+"n02492035": "http://www.wikidata.org/entity/Q326260", exact
+"n01883070": "http://www.wikidata.org/entity/Q23175", exact
+"n01798484": "http://www.wikidata.org/entity/Q1463540", exact
+"n04252077": "http://www.wikidata.org/entity/Q17240", exact
+"n02966687": "http://www.wikidata.org/entity/Q1501161", exact?
+"n04141076": "http://www.wikidata.org/entity/Q9798", exact
+"n04507155": "http://www.wikidata.org/entity/Q41607", exact
+"n02403003": "http://www.wikidata.org/entity/Q473194", exact
+"n02100583": "http://www.wikidata.org/entity/Q38819", exact
+"n03017168": "http://www.wikidata.org/entity/Q101401", chime, bell, gong -> bell
+"n02105162": "http://www.wikidata.org/entity/Q38494", exact
+"n03776460": "http://www.wikidata.org/entity/Q1434998", exact
+"n02094258": "http://www.wikidata.org/entity/Q38934", exact
+"n02860847": "http://www.wikidata.org/entity/Q177275", bobsleigh (sleigh) -> bobsleigh (sport)
+"n12620546": "http://www.wikidata.org/entity/Q46740", exact
+"n02109525": "http://www.wikidata.org/entity/Q38090", exact
+"n02106550": "http://www.wikidata.org/entity/Q39093", exact
+"n03259280": "http://www.wikidata.org/entity/Q262515", exact
+"n02085782": "http://www.wikidata.org/entity/Q38146", exact
+"n02655020": "http://www.wikidata.org/entity/Q201701", exact
+"n02793495": "http://www.wikidata.org/entity/Q1303167", exact
+"n04493381": "http://www.wikidata.org/entity/Q152095", tub, vat -> bathtub (!)
+"n02361337": "http://www.wikidata.org/entity/Q131567", exact
+"n02088466": "http://www.wikidata.org/entity/Q21098", bloodhound, sleuthhound -> bloodhound
+"n02486410": "http://www.wikidata.org/entity/Q159429", exact
+"n02114367": "http://www.wikidata.org/entity/Q18498", exact
+"n03594945": "http://www.wikidata.org/entity/Q946596", jeep, land rover -> off-road vehicle
+"n03127747": "http://www.wikidata.org/entity/Q1127483", exact
 
 
 TODOs
@@ -421,4 +467,5 @@ Notes:
 - digital watch exist in PL and there is information
 - confectionery in wordnet means confectionery store
 - "n02113624": "http://www.wikidata.org/entity/Q38904", toy poodle -> poodle (toy stands for size) (also "n02113799": "http://www.wikidata.org/entity/Q38904", standard poodle -> poodle)
+- bobsleigh (sleigh) -> bobsleigh (sport)
 
