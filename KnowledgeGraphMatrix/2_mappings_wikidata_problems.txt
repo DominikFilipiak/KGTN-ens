@@ -443,6 +443,93 @@
 "n02114367": "http://www.wikidata.org/entity/Q18498", exact
 "n03594945": "http://www.wikidata.org/entity/Q946596", jeep, land rover -> off-road vehicle
 "n03127747": "http://www.wikidata.org/entity/Q1127483", exact
+"n11879895": "http://www.wikidata.org/entity/Q177932", exact
+"n02226429": "http://www.wikidata.org/entity/Q18398431", exact
+"n04417672": "http://www.wikidata.org/entity/Q874531", exact
+"n02093428": "http://www.wikidata.org/entity/Q37688", exact
+"n03496892": "http://www.wikidata.org/entity/Q1367947", harvester, reaper -> reaper
+"n04311174": "http://www.wikidata.org/entity/Q6610630", exact
+"n03782006": "http://www.wikidata.org/entity/Q5290", exact? check imagenet
+"n12768682": "http://www.wikidata.org/entity/Q11009", buckeye, horse chestnut, conker -> nut
+"n04399382": "http://www.wikidata.org/entity/Q213477", exact
+"n02172182": "http://www.wikidata.org/entity/Q861966", exact
+"n03447721": "http://www.wikidata.org/entity/Q208320", exact
+"n07716906": "http://www.wikidata.org/entity/Q2142043", exact
+"n02281406": "http://www.wikidata.org/entity/Q2710909", sulphur butterfly -> cloudless sulphur
+"n04418357": "http://www.wikidata.org/entity/Q945148", exact
+"n04467665": "http://www.wikidata.org/entity/Q1936841", exact
+"n03134739": "http://www.wikidata.org/entity/Q18545", croquet ball -> ball
+"n07754684": "http://www.wikidata.org/entity/Q45757", exact
+"n02992211": "http://www.wikidata.org/entity/Q8371", exact
+"n03400231": "http://www.wikidata.org/entity/Q127666", exact
+"n03787032": "http://www.wikidata.org/entity/Q920507" exact
+"n02110958": "http://www.wikidata.org/entity/Q38698", exact
+"n02051845": "http://www.wikidata.org/entity/Q19413", exact
+"n02319095": "http://www.wikidata.org/entity/Q83483", exact
+"n01514668": "http://www.wikidata.org/entity/Q2216236", exact
+"n03047690": "http://www.wikidata.org/entity/Q167633", exact
+"n02892201": "http://www.wikidata.org/entity/Q721747", exact
+"n02892201": "http://www.wikidata.org/entity/Q721747", brass, memorial tablet, plaque -> commemorative plaque
+"n01775062": "http://www.wikidata.org/entity/Q10627", exact
+"n03478589": "http://www.wikidata.org/entity/Q941081", exact
+"n09193705": "http://www.wikidata.org/entity/Q8502", alp -> mountain
+"n03445924": "http://www.wikidata.org/entity/Q1431095", exact
+"n02099267": "http://www.wikidata.org/entity/Q29200", exact
+"n03967562": "http://www.wikidata.org/entity/Q11464", exact
+"n03903868": "http://www.wikidata.org/entity/Q12014132", exact
+"n02422106": "http://www.wikidata.org/entity/Q622880", exact
+"n02090721": "http://www.wikidata.org/entity/Q38668", exact
+"n01753488": "http://www.wikidata.org/entity/Q1476343", hhorned viper, cerastes, sand viper, horned asp, Cerastes cornutus -> Cerastes cerastes
+"n02415577": "http://www.wikidata.org/entity/Q189466", exact
+"n02133161": "http://www.wikidata.org/entity/Q122783", exact
+"n02018795": "http://www.wikidata.org/entity/Q21755", exact
+"n02106030": "http://www.wikidata.org/entity/Q1196071", exact
+"n02123045": "http://www.wikidata.org/entity/Q1474329", exact
+"n04350905": "http://www.wikidata.org/entity/Q614806", exact
+"n02480495": "http://www.wikidata.org/entity/Q41050" exact
+"n07684084": "http://www.wikidata.org/entity/Q208172", exact
+"n02999410": "http://www.wikidata.org/entity/Q2397485", exact
+"n03595614": "http://www.wikidata.org/entity/Q131151", jersey, t-shirt -> t-shirt
+"n02098105": "http://www.wikidata.org/entity/Q38047", exact
+"n06596364": "http://www.wikidata.org/entity/Q1760610", exact
+"n02786058": "http://www.wikidata.org/entity/Q2737652", exact
+"n02326432": "http://www.wikidata.org/entity/Q46076", exact
+"n02640242": "http://www.wikidata.org/entity/Q181871", exact
+"n03109150": "http://www.wikidata.org/entity/Q12337", exact
+"n04357314": "http://www.wikidata.org/entity/Q827658", exact
+"n02363005": "http://www.wikidata.org/entity/Q47542", exact
+"n02412080": "http://www.wikidata.org/entity/Q7368", ram, tup -> sheep
+"n12267677": "http://www.wikidata.org/entity/Q3914781", exact
+"n02113978": "http://www.wikidata.org/entity/Q38856", exact
+"n03891251": "http://www.wikidata.org/entity/Q204776", park bench -> bench
+"n03670208": "http://www.wikidata.org/entity/Q188475", exact
+"n02087046": "http://www.wikidata.org/entity/Q37782", toy terrier -> English Toy Terrier
+"n03065424": "http://www.wikidata.org/entity/Q189114", coil, spiral, volute, whorl, helix -> spiral
+"n02099601": "http://www.wikidata.org/entity/Q38686", exact
+"n03954731": "http://www.wikidata.org/entity/Q204260", exact
+"n02127052": "http://www.wikidata.org/entity/Q677014", exact
+"n03000684": "http://www.wikidata.org/entity/Q208040", exact
+"n02105056": "http://www.wikidata.org/entity/Q38399", exact
+"n02105505": "http://www.wikidata.org/entity/Q38675", exact
+"n02869837": "http://www.wikidata.org/entity/Q1149531", bonnect, poke bonnet -> bonnet
+"n02494079": "http://www.wikidata.org/entity/Q309200", exact
+"n04428191": "http://www.wikidata.org/entity/Q506839", exact
+"n02090379": "http://www.wikidata.org/entity/Q38820", exact
+"n03950228": "http://www.wikidata.org/entity/Q132397", exact
+"n02794156": "http://www.wikidata.org/entity/Q79757", exact
+"n02500267": "http://www.wikidata.org/entity/Q203868", exact
+"n01751748": "http://www.wikidata.org/entity/Q460286", exact
+"n07802026": "http://www.wikidata.org/entity/Q336989", exact
+"n03977966": "http://www.wikidata.org/entity/Q1023646", exact
+"n02086240": "http://www.wikidata.org/entity/Q39357", exact
+"n07613480": "http://www.wikidata.org/entity/Q616601", exact
+"n01737021": "http://www.wikidata.org/entity/Q2163958", water snake -> common water snake
+"n02102040": "http://www.wikidata.org/entity/Q29022", exact
+"n01669191": "http://www.wikidata.org/entity/Q734870", exact
+"n02927161": "http://www.wikidata.org/entity/Q6804271", exact
+"n04462240": "http://www.wikidata.org/entity/Q1318959", exact
+"n02834397": "http://www.wikidata.org/entity/Q1520756" exact
+
 
 
 TODOs
@@ -454,11 +541,13 @@ imagenet images <--> synset name <--> wikidata entity
 - maybe it will be worthy to check NER toools how good they are in this and compare with manual annotation
 - wordnet 3.0 vs wordnet 3.1
 - imagenet browser http://146.48.86.29/edge-mac/imgs/n02113624/
+- 8 synsets missing here (forgto to copy from mapppings...)
 
 Notes:
+- 461 has been already linked
 - Interesting example: Baseball in wordnet means baseball ball (contrary to wiki)
 - home theater is home cinema
-- tusker vs african elephant, male duck vs duck
+- tusker vs african elephant, male duck vs duck, hen -> chicken (but there's rooster), ram, tup -> sheep
 - television n04404412 -> television set
 - green mamba -> western green mamba, but can be eastern (not likely tho?)
 - moving van n03796401 -> van!!
@@ -468,4 +557,8 @@ Notes:
 - confectionery in wordnet means confectionery store
 - "n02113624": "http://www.wikidata.org/entity/Q38904", toy poodle -> poodle (toy stands for size) (also "n02113799": "http://www.wikidata.org/entity/Q38904", standard poodle -> poodle)
 - bobsleigh (sleigh) -> bobsleigh (sport)
+- n03496892 harvester, reaper - very imprecise category in imagenet, offers variety of agricultural toools
+- "n01753488": "http://www.wikidata.org/entity/Q1476343" same as Q1476343, two times in the dataset
+- tiger cat and tabby cat -> tabby cat 
+- sunscreen - different photos (product vs appliance)
 
