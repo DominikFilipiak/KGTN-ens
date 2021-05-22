@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DataPath='../DataSplit/KGTN'
-OutDir='../results/KGTN/CosSim'
+OutDir='../results/Wikidata'
 cd KGTN
 
 
@@ -33,7 +33,7 @@ do
       --use_knowledge_propagation \
       --ggnn_time_step 2 \
       --ggnn_coefficient 0.4 \
-      --adjacent_matrix_file ../KnowledgeGraphMatrix/SemanticGraph.npy \
+      --adjacent_matrix_file ../KnowledgeGraphMatrix/WikidataGraph.npy \
       --process_type semantic \
       --classifier_type cosine
   done
