@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DataPath='../DataSplit/KGTN'
-OutDir='../results/Wikidata'
+OutDir='../results/Wikidata/InnerProduct'
 cd KGTN
 
 
@@ -34,8 +34,7 @@ do
       --ggnn_time_step 2 \
       --ggnn_coefficient 0.4 \
       --adjacent_matrix_file ../KnowledgeGraphMatrix/WikidataGraph.npy \
-      --process_type semantic \
-      --classifier_type cosine
+      --process_type semantic 
   done
 done
 
