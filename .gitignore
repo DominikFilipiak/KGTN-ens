@@ -2,6 +2,8 @@ checkpoints/*
 results/*
 FeatureExtractor/core
 features/*
+db-kb/*
+.vscode/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
