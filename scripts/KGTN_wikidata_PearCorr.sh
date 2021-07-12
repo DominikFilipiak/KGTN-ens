@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DataPath='../DataSplit/KGTN'
-OutDir='../results/Wikidata/PearCorr'
+OutDir="../results/Wikidata-110721/PearCorr-ggnn_coef/${2}"
 cd KGTN
 
 
@@ -32,7 +32,7 @@ do
       --use_all_base \
       --use_knowledge_propagation \
       --ggnn_time_step 2 \
-      --ggnn_coefficient 0.4 \
+      --ggnn_coefficient $2 \
       --adjacent_matrix_file ../KnowledgeGraphMatrix/WikidataGraph.npy \
       --process_type semantic \
       --classifier_type pearson
