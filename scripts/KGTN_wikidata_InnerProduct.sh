@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DataPath='../DataSplit/KGTN'
-OutDir="../results/Wikidata-110721/InnerProduct-ggnn_coef/${2}"
+OutDir="../results/Wikidata-110721/CosSim-ggnn_coef/${2}_gts${3}"
 cd KGTN
 
 
@@ -31,7 +31,7 @@ do
       --maxiters $maxiters \
       --use_all_base \
       --use_knowledge_propagation \
-      --ggnn_time_step 2 \
+      --ggnn_time_step $3 \
       --ggnn_coefficient $2 \
       --adjacent_matrix_file ../KnowledgeGraphMatrix/WikidataGraph.npy \
       --process_type semantic 
