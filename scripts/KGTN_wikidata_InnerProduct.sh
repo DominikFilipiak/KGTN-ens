@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DataPath='../DataSplit/KGTN'
-OutDir="../results/Wikidata-110721/CosSim-ggnn_coef/${2}_gts${3}"
+OutDir="../results/Wikidata-110721/InnerProduct-ggnn_coef/${2}_gts${3}"
 cd KGTN
 
 
