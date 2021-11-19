@@ -210,6 +210,9 @@ def parse_args():
     parser.add_argument('--batchsize', default=1000, type=int)
     parser.add_argument('--outdir', type=str, help='output directory for results')
     parser.add_argument('--use_knowledge_propagation',action='store_true', help='whether use KGTN')
+    parser.add_argument('--kgtm_ensemble', default=False, help='whether use mutliple knowledge transger modules')
+    parser.add_argument('--kgtm_ensemble_networks', default='wiki,hierarchy,glove', help='KGTM module names to ensemble, delimited by ","')
+    parser.add_argument('--kgtm_ensemble_method', default='mean', help='KGTM concat method')
     parser.add_argument('--use_all_base',action='store_true', help='whether use all base category to do propagation')
     parser.add_argument('--ggnn_time_step',default=2, type=int, help='ggnn propagation time')
     parser.add_argument('--ggnn_coefficient',default=0.5, type=float, help='ggnn ggnn_coefficient')
@@ -244,7 +247,28 @@ if __name__ == '__main__':
     
     with h5py.File(params.trainfile, 'r') as f:
         lowshot_dataset = LowShotDataset(f, train_base_classes, novel_classes, novel_idx)
-        adjacent_matrix = process_adjacent_matrix(params.lowshotmeta, params.testsetup, params.adjacent_matrix_file, params.ggnn_coefficient, params.process_type, params.kg_ratio, use_all_base=params.use_all_base) if params.use_knowledge_propagation else None
+        if params.kgtm_ensemble:
+            matrices = {}
+            for kgtm_name in params.kgtm_ensemble_networks.split(','):
+                if kgtm_name == 'wiki':
+                    adjacent_matrix_file = "../KnowledgeGraphMatrix/WikidataGraph.npy"
+                    ggnn_coefficient = 0.32
+                    process_type = 'semantic'
+                elif kgtm_name == 'hierarchy':
+                    adjacent_matrix_file = "../KnowledgeGraphMatrix/HierarchyGraph.npy"
+                    ggnn_coefficient = 0.4
+                    process_type = 'wordnet'
+                elif kgtm_name == 'glove':
+                    adjacent_matrix_file = "../KnowledgeGraphMatrix/SemanticGraph.npy"
+                    ggnn_coefficient = 0.5
+                    process_type = 'semantic'
+                else:
+                    raise ValueError('unknown KGTM name provided in kgtm_ensemble_networks')
+
+                matrices[kgtm_name] = process_adjacent_matrix(params.lowshotmeta, params.testsetup, adjacent_matrix_file, ggnn_coefficient, process_type, params.kg_ratio, use_all_base=params.use_all_base) if params.use_knowledge_propagation else None
+            adjacent_matrix = matrices
+        else:
+            adjacent_matrix = process_adjacent_matrix(params.lowshotmeta, params.testsetup, params.adjacent_matrix_file, params.ggnn_coefficient, params.process_type, params.kg_ratio, use_all_base=params.use_all_base) if params.use_knowledge_propagation else None
         model = KGTN(
                            lowshot_dataset.featdim(), 
                            params.numclasses,
@@ -254,6 +278,9 @@ if __name__ == '__main__':
                            pretrain=False,
                            adjacent_matrix = adjacent_matrix,
                            classifier_type=params.classifier_type,
+                           kgtm_ensemble=params.kgtm_ensemble,
+                           kgtm_ensemble_networks=params.kgtm_ensemble_networks,
+                           kgtm_ensemble_method=params.kgtm_ensemble_method,
                            )
         model = model.cuda()
 
