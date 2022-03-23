@@ -5,6 +5,48 @@ import torch
 import torch.nn.functional as F
 import torch.nn as nn
 
+class KGTMList(nn.Module):
+    def __init__(self, adjacent_matrix, graph_learnable, time_step, output_channel, hidden_state_channel, use_all_base, num_nodes, kgtm_ensemble_networks,  kgtm_ensemble_method
+        ):
+        super(KGTMList, self).__init__()
+        self.kgtm_ensemble_method = kgtm_ensemble_method
+        print('kgtm_ensemble_method: {}'.format(self.kgtm_ensemble_method))
+        print('kgtm_ensemble_networks: {}'.format(kgtm_ensemble_networks))
+        self.kgtms = nn.ModuleList(self._init_kgtms(kgtm_ensemble_networks, adjacent_matrix, graph_learnable, time_step, output_channel, hidden_state_channel, use_all_base, num_nodes))
+        # self.kgtms_weights = nn.Linear(len(kgtm_ensemble_networks), 1)
+
+    def forward(self, x):
+        preds_list = []
+        
+        for kgtm in self.kgtms:
+            # print(kgtm)
+            xx = kgtm(x)[-1]
+            # print('xx.shape: {}'.format(xx.shape))
+            preds_list.append(xx)
+        # print(len(preds_list))
+        x = torch.stack(preds_list)
+        # print(x.shape)
+        if self.kgtm_ensemble_method == 'mean':
+            x = torch.mean(x, dim=0)
+        if self.kgtm_ensemble_method == 'max':
+            x = torch.max(x, dim=0)[0]
+        else:
+            raise NotImplementedError('kgtm_ensemble_method {} not implemented'.format(self.kgtm_ensemble_method))
+        return x
+
+    def _init_kgtms(self, kgtm_ensemble_networks, adjacent_matrix, graph_learnable, time_step, output_channel, hidden_state_channel, use_all_base, num_nodes):
+        return [
+            KGTM(
+                    num_nodes = num_nodes, 
+                    use_all_base = use_all_base,
+                    hidden_state_channel = hidden_state_channel,
+                    output_channel = output_channel,
+                    time_step = time_step,
+                    adjacent_matrix = adjacent_matrix[network_name],
+                    graph_learnable=graph_learnable 
+                ) 
+            for network_name in kgtm_ensemble_networks]
+
 class KGTN(nn.Module):
     def __init__(self, 
                  feature_dim, 
@@ -16,26 +58,45 @@ class KGTN(nn.Module):
                  pretrain_model=None,
                  graph_learnable=False,
                  classifier_type='inner_product',
-                 adjacent_matrix=None):
+                 adjacent_matrix=None,
+                 kgtm_ensemble=None,
+                 kgtm_ensemble_networks=None,
+                 kgtm_ensemble_method=None,):
         super(KGTN, self).__init__()
 
         self.feature_dim = feature_dim
         self.use_knowledge_propagation = use_knowledge_propagation
         self.use_all_base = use_all_base
         self.ggnn_time_step = ggnn_time_step
+        self.kgtm_ensemble = kgtm_ensemble
+        self.kgtm_ensemble_networks = kgtm_ensemble_networks.split(',')
+        self.kgtm_ensemble_method = kgtm_ensemble_method
 
         self.last_fc_weight = nn.Parameter(torch.rand(feature_dim, num_classes))
 
         if use_knowledge_propagation:
-            self.ggnn = KGTM(
-                num_nodes = num_classes, 
-                use_all_base = use_all_base,
-                hidden_state_channel = feature_dim,
-                output_channel = feature_dim,
-                time_step = self.ggnn_time_step,
-                adjacent_matrix = adjacent_matrix,
-                graph_learnable=graph_learnable 
-            )
+            if self.kgtm_ensemble:
+                self.ggnn = KGTMList(
+                    num_nodes=num_classes,
+                    use_all_base=use_all_base,
+                    hidden_state_channel=feature_dim,
+                    output_channel=feature_dim,
+                    time_step=ggnn_time_step,
+                    adjacent_matrix = adjacent_matrix,
+                    graph_learnable=graph_learnable,
+                    kgtm_ensemble_networks=self.kgtm_ensemble_networks,
+                    kgtm_ensemble_method=self.kgtm_ensemble_method,
+                )
+            else:
+                self.ggnn = KGTM(
+                    num_nodes = num_classes, 
+                    use_all_base = use_all_base,
+                    hidden_state_channel = feature_dim,
+                    output_channel = feature_dim,
+                    time_step = self.ggnn_time_step,
+                    adjacent_matrix = adjacent_matrix,
+                    graph_learnable=graph_learnable 
+                )
         # initialize parameters and load pretrain
         self.param_init()
         self.load_pretrain(pretrain_model, pretrain)
