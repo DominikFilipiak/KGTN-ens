@@ -1,2 +1,1 @@
-# KGTN2
-New approach to the KGTN paper
+# KGTN-ens
