@@ -28,7 +28,7 @@ class KGTMList(nn.Module):
         # print(x.shape)
         if self.kgtm_ensemble_method == 'mean':
             x = torch.mean(x, dim=0)
-        if self.kgtm_ensemble_method == 'max':
+        elif self.kgtm_ensemble_method == 'max':
             x = torch.max(x, dim=0)[0]
         else:
             raise NotImplementedError('kgtm_ensemble_method {} not implemented'.format(self.kgtm_ensemble_method))
