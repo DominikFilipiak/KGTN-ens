@@ -1,7 +1,7 @@
 dataset_type: 'MetaDataset'
 dataset_params:
-  meta: 'base_classes_train_meta.json'
-  rootdir: '/mnt/fair/imagenet-256' # Change this to ImageNet directory
+  meta: '../DataSplit/FeatureExtractor/base_classes_train_meta.json'
+  rootdir: '/data/imagenet/' # Change this to ImageNet directory
 transform_params:
   transform_list: ['RandomSizedCrop', 'ImageJitter', 'RandomHorizontalFlip', 'ToTensor', 'Normalize']
   image_size: 224
