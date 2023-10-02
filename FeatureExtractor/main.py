@@ -19,6 +19,7 @@ import os
 import glob
 import numpy as np
 import losses
+from tqdm import tqdm
 
 def accuracy(scores, labels):
     topk_scores, topk_labels = scores.topk(5, 1, True, True)
@@ -46,7 +47,7 @@ def main_training_loop(train_loader, val_loader, model, loss_fn, start_epoch, st
 
 
     optimizer = torch.optim.SGD(model.parameters(), params.lr, momentum=params.momentum, weight_decay=params.weight_decay, dampening=params.dampening)
-    for epoch in range(start_epoch,stop_epoch):
+    for epoch in tqdm(range(start_epoch,stop_epoch), desc="Epochs"):
         adjust_learning_rate(optimizer, epoch, params)
         model.train()
 
@@ -59,7 +60,7 @@ def main_training_loop(train_loader, val_loader, model, loss_fn, start_epoch, st
         avg_loss=0
 
         #train
-        for i, (x,y) in enumerate(train_loader):
+        for i, (x,y) in tqdm(enumerate(train_loader), leave=False, desc="Training"):
             data_time = data_time + (time.time()-start_data_time)
             x = x.cuda()
             y = y.cuda()
@@ -90,7 +91,7 @@ def main_training_loop(train_loader, val_loader, model, loss_fn, start_epoch, st
         top5=0
         count = 0
         with torch.no_grad():
-            for i, (x,y) in enumerate(val_loader):
+            for i, (x,y) in tqdm(enumerate(val_loader), leave=False, desc="Testing"):
                 data_time = data_time + (time.time()-start_data_time)
                 x = x.cuda()
                 y = y.cuda()
