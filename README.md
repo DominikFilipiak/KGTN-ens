@@ -1,5 +1,6 @@
 # KGTN-ens
 
+[Commited image for running the code](https://hub.docker.com/layers/0xdfdfdf/ai-notebook/kgtn-ens-committed/images/sha256-8b58b7118878a09a337fe43433dfa947720046506a1147455eca9281c6959936?context=repo)
 ### Requirements for reproducing the results
  Python 3.6.9
  ```{shell}
