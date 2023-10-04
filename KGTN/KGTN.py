@@ -10,16 +10,22 @@ class KGTMList(nn.Module):
         ):
         super(KGTMList, self).__init__()
         self.kgtm_ensemble_method = kgtm_ensemble_method
-        print('kgtm_ensemble_method: {}'.format(self.kgtm_ensemble_method))
-        print('kgtm_ensemble_networks: {}'.format(kgtm_ensemble_networks))
+        # print('kgtm_ensemble_method: {}'.format(self.kgtm_ensemble_method))
+        # print('kgtm_ensemble_networks: {}'.format(kgtm_ensemble_networks))
         self.kgtms = nn.ModuleList(self._init_kgtms(kgtm_ensemble_networks, adjacent_matrix, graph_learnable, time_step, output_channel, hidden_state_channel, use_all_base, num_nodes))
         # self.kgtms_weights = nn.Linear(len(kgtm_ensemble_networks), 1)
 
-    def forward(self, x):
+    def forward(self, x, dump_weights_and_features=False):
         preds_list = []
+        # weights_and_features_list = []
         
         for kgtm in self.kgtms:
             # print(kgtm)
+            # if dump_weights_and_features:
+            #     xx_all, weights_and_features = kgtm(x)
+            #     xx = xx[-1]
+            #     weights_and_features_list.append(weights_and_features)
+            # else:
             xx = kgtm(x)[-1]
             # print('xx.shape: {}'.format(xx.shape))
             preds_list.append(xx)
@@ -32,6 +38,8 @@ class KGTMList(nn.Module):
             x = torch.max(x, dim=0)[0]
         else:
             raise NotImplementedError('kgtm_ensemble_method {} not implemented'.format(self.kgtm_ensemble_method))
+        # if dump_weights_and_features:
+        #     return x, torch.stack(weights_and_features_list)
         return x
 
     def _init_kgtms(self, kgtm_ensemble_networks, adjacent_matrix, graph_learnable, time_step, output_channel, hidden_state_channel, use_all_base, num_nodes):
@@ -61,7 +69,9 @@ class KGTN(nn.Module):
                  adjacent_matrix=None,
                  kgtm_ensemble=None,
                  kgtm_ensemble_networks=None,
-                 kgtm_ensemble_method=None,):
+                 kgtm_ensemble_method=None,
+                #  dump_weights_and_features=False,
+                 ):
         super(KGTN, self).__init__()
 
         self.feature_dim = feature_dim
@@ -86,6 +96,7 @@ class KGTN(nn.Module):
                     graph_learnable=graph_learnable,
                     kgtm_ensemble_networks=self.kgtm_ensemble_networks,
                     kgtm_ensemble_method=self.kgtm_ensemble_method,
+                    # dump_weights_and_features=dump_weights_and_features,
                 )
             else:
                 self.ggnn = KGTM(
@@ -109,7 +120,7 @@ class KGTN(nn.Module):
                 torch.FloatTensor(1).fill_(init_scale_cls),
                 requires_grad=True)
 
-    def forward(self, input):
+    def forward(self, input, dump_weights_and_features=False):
         if self.use_knowledge_propagation:
             step_fc_weight = self.ggnn(self.last_fc_weight.transpose(0, 1).unsqueeze(0))
             weight = step_fc_weight[-1]
@@ -132,6 +143,9 @@ class KGTN(nn.Module):
         else:
             output = torch.matmul(input, self.last_fc_weight)
             l2_reg = self.l2_reg(self.last_fc_weight)
+        if dump_weights_and_features:
+            s = self.scale_cls if hasattr(self, 'scale_cls') else None
+            return output, l2_reg, input.clone().detach().cpu().numpy(), weight.clone().detach().cpu().numpy(), None #s.cpu().clone().detach().cpu().numpy()
         return output, l2_reg
     
     def l2_reg(self, input):

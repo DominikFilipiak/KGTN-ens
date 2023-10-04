@@ -119,6 +119,9 @@ def training_loop(lowshot_dataset, model, num_classes, params, batchsize=1000, m
     return model
 
 def perelement_accuracy(scores, labels):
+    # print(scores.shape)
+    # while(True):
+    #     pass
     topk_scores, topk_labels = scores.topk(5, 1, True, True)
     label_ind = labels.cpu().numpy()
     topk_ind = topk_labels.cpu().numpy()
@@ -127,7 +130,7 @@ def perelement_accuracy(scores, labels):
     return top1_correct.astype(float), top5_correct.astype(float)
 
 
-def eval_loop_step(data_loader, model, base_classes, novel_classes):
+def eval_loop_step(data_loader, model, base_classes, novel_classes, mode="normal", dump_weights_and_features=False):
 
     model = model.eval()
     top1 = None
@@ -139,8 +142,13 @@ def eval_loop_step(data_loader, model, base_classes, novel_classes):
     
     all_labels = None
 
+    ws, fs, ss, ys = [], [], [], []
     for i, (x,y) in enumerate(data_loader):
-        output, _ = model(x.cuda())
+        if dump_weights_and_features:
+            output, _, w, f, s = model(x.cuda(), dump_weights_and_features=dump_weights_and_features)
+            ws.append(w), fs.append(f), ss.append(s), ys.append(y)
+        else:
+            output, _ = model(x.cuda())
 
         output_join = output * 0 - 999
         output_join[:, base_classes + novel_classes] = output[:, base_classes + novel_classes]
@@ -182,6 +190,14 @@ def eval_loop_step(data_loader, model, base_classes, novel_classes):
     # all with prior
     top1_all_with_prior = np.mean(top1_with_prior[is_either]) 
     top5_all_with_prior = np.mean(top5_with_prior[is_either]) 
+
+    if dump_weights_and_features:
+        np.save(f"{dump_weights_and_features}/weights.npy",np.stack(ws))
+        np.save(f"{dump_weights_and_features}/features.npy",np.stack(fs))
+        np.save(f"{dump_weights_and_features}/scales.npy",np.stack(ss))
+        np.save(f"{dump_weights_and_features}/target.npy",np.stack(ys))
+        np.save(f"{dump_weights_and_features}/base_classes.npy", np.stack(base_classes))
+        np.save(f"{dump_weights_and_features}/novel_classes.npy", np.stack(novel_classes))
     
     # print("**********************************Testing**********************************")
     # print("novel in all  :  {:<8.2f}".format(top5_novel*100))
@@ -191,7 +207,16 @@ def eval_loop_step(data_loader, model, base_classes, novel_classes):
 
     # print("***************************************************************************")
     
-    return np.array([top5_novel, top5_novel_new_metrix, top5_all, top5_all_with_prior])
+
+    if mode == "normal":
+        return np.array([top5_novel, top5_novel_new_metrix, top5_all, top5_all_with_prior])
+    elif mode == "top1":
+        return np.array([top1_novel, top1_novel_new_metrix, top1_all, top1_all_with_prior])
+    elif mode == "ids":
+        return np.array([top5, top5_new_metrix, top5, top5_with_prior, is_novel])
+    elif mode == "ids_1":
+        return np.array([top5, top5_new_metrix, top5, top5_with_prior, is_novel])
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Low shot benchmark')
@@ -222,6 +247,10 @@ def parse_args():
     parser.add_argument('--kg_ratio',default=100, type=int, help='ratio of the kg information')
     parser.add_argument('--classifier_type',default='inner_product', type=str, help='classifier_type')
     parser.add_argument('--save_model_dir', type=str, help='output directory for model')
+    parser.add_argument('--model_to_load', type=str, help='model path')
+    parser.add_argument('--eval_out_path', type=str, help='model path')
+    parser.add_argument('--eval_mode', default="normal", type=str, help='model path')
+    parser.add_argument('--dump_weights_and_features', default=False, help='False or path to dump np arrays')
 
     return parser.parse_args()
 
@@ -287,28 +316,34 @@ if __name__ == '__main__':
                            )
         model = model.cuda()
 
-        model = training_loop(lowshot_dataset, model, params.numclasses, params, params.batchsize, params.maxiters)
-
-    if params.save_model_dir:
-        if not os.path.exists(params.save_model_dir):
-            os.makedirs(params.save_model_dir)
-        modelrootdir = os.path.basename(os.path.dirname(params.trainfile))
-        model_outpath = os.path.join(params.save_model_dir, modelrootdir+'_lr_{:.3f}_wd_{:.3f}_expid_{:d}_lowshotn_{:d}.pt'.format(
-                                        params.lr, params.wd, params.experimentid, params.lowshotn))
-        torch.save(model.state_dict(), f=model_outpath)
+        # model = training_loop(lowshot_dataset, model, params.numclasses, params, params.batchsize, params.maxiters)
+        print("loading model from disk...")
+        model.load_state_dict(torch.load(params.model_to_load))
+    # if params.save_model_dir:
+    #     if not os.path.exists(params.save_model_dir):
+    #         os.makedirs(params.save_model_dir)
+    #     modelrootdir = os.path.basename(os.path.dirname(params.trainfile))
+    #     model_outpath = os.path.join(params.save_model_dir, modelrootdir+'_lr_{:.3f}_wd_{:.3f}_expid_{:d}_lowshotn_{:d}.pt'.format(
+    #                                     params.lr, params.wd, params.experimentid, params.lowshotn))
+    #     torch.save(model.state_dict(), f=model_outpath)
     # print('trained')
+    if params.dump_weights_and_features:
+        if not os.path.exists(params.dump_weights_and_features):
+            os.makedirs(params.dump_weights_and_features)
+
     with h5py.File(params.testfile, 'r') as f:
         test_loader = get_test_loader(f)
         with torch.no_grad():
-            accs = eval_loop_step(test_loader, model, base_classes, novel_classes)
+            accs = eval_loop_step(test_loader, model, base_classes, novel_classes, mode=params.eval_mode, dump_weights_and_features=params.dump_weights_and_features)
+    np.save(params.eval_out_path, accs)
     
-    if not os.path.exists(params.outdir):
-        os.makedirs(params.outdir)
+    # if not os.path.exists(params.outdir):
+    #     os.makedirs(params.outdir)
         
-    modelrootdir = os.path.basename(os.path.dirname(params.trainfile))
-    outpath = os.path.join(params.outdir, modelrootdir+'_lr_{:.3f}_wd_{:.3f}_expid_{:d}_lowshotn_{:d}.json'.format(
-                                    params.lr, params.wd, params.experimentid, params.lowshotn))
-    with open(outpath, 'w') as f:
-        json.dump(dict(lr=params.lr,wd=params.wd, expid=params.experimentid, lowshotn=params.lowshotn, accs=accs.tolist()),f)
+    # modelrootdir = os.path.basename(os.path.dirname(params.trainfile))
+    # outpath = os.path.join(params.outdir, modelrootdir+'_lr_{:.3f}_wd_{:.3f}_expid_{:d}_lowshotn_{:d}.json'.format(
+    #                                 params.lr, params.wd, params.experimentid, params.lowshotn))
+    # with open(outpath, 'w') as f:
+    #     json.dump(dict(lr=params.lr,wd=params.wd, expid=params.experimentid, lowshotn=params.lowshotn, accs=accs.tolist()),f)
 
 
