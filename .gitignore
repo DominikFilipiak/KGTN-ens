@@ -4,6 +4,8 @@ FeatureExtractor/core
 features/*
 db-kb/*
 .vscode/*
+data
+checkpoints_KGTN-ens
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
