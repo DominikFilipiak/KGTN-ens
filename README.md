@@ -2,12 +2,13 @@
 
 This is the implementation for the [KGTN-ens paper](https://arxiv.org/abs/2211.03199).
 
+![https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10489-023-05129-8/MediaObjects/10489_2023_5129_Fig1_HTML.png](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10489-023-05129-8/MediaObjects/10489_2023_5129_Fig1_HTML.png)
+
 > We propose KGTN-ens, a framework to incorporate multiple knowledge graph embeddings at a small cost. 
-There are many real-world scenarios in which the amount of data is severely limited (e.g. health industry, rare anomalies).
-Prior knowledge can be used to tackle this task. In KGTN, one can use a single knowledge source at once.
+There are many real-world scenarios in which the amount of data is severely limited.
+Prior knowledge can be used to tackle this task. 
 The purpose of this study is to investigate the possibility of combining multiple knowledge sources.
 We evaluate it with different embeddings in a few-shot image classification task.
-Our model is partially trained on $k \in {1, 2, 5, 10}$ samples.
 We also construct a new knowledge source – Wikidata embeddings – and evaluate it with KGTN and KGTN-ens.
 With ResNet50, our approach outperforms KGTN in terms of the top-5 accuracy on the ImageNet-FS dataset for the majority of tested settings.
 For $k \in {1, 2, 5, 10}$ respectively, we obtained +0.63/+0.58/+0.43/+0.26 pp. (novel classes) and +0.26/+0.25/+0.32/–0.04 pp. (all classes).
@@ -26,8 +27,6 @@ or, in BibTeX:
   doi = {10.1007/s10489-023-05129-8}
 }
 ```
-
-![https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10489-023-05129-8/MediaObjects/10489_2023_5129_Fig1_HTML.png](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10489-023-05129-8/MediaObjects/10489_2023_5129_Fig1_HTML.png)
 
 ## Running the code
 
