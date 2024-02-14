@@ -1,8 +1,10 @@
 # KGTN-ens: Few-Shot Image Classification with Knowledge Graph Ensembles
 
-This is the implementation for the [KGTN-ens paper](https://arxiv.org/abs/2211.03199).
+This is the implementation for the [KGTN-ens paper, published in Applied Intelligence]([https://arxiv.org/abs/2211.03199](https://link.springer.com/article/10.1007/s10489-023-05129-8)).
 
-![https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10489-023-05129-8/MediaObjects/10489_2023_5129_Fig1_HTML.png](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10489-023-05129-8/MediaObjects/10489_2023_5129_Fig1_HTML.png)
+<p align="center">
+<img src="https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs10489-023-05129-8/MediaObjects/10489_2023_5129_Fig1_HTML.png"  width=50% height=50% >
+</p>
 
 > We propose KGTN-ens, a framework to incorporate multiple knowledge graph embeddings at a small cost. 
 There are many real-world scenarios in which the amount of data is severely limited.
