@@ -1,5 +1,10 @@
 # KGTN-ens: Few-Shot Image Classification with Knowledge Graph Ensembles
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/kgtn-ens-few-shot-image-classification-with/few-shot-image-classification-on-imagenet-fs)](https://paperswithcode.com/sota/few-shot-image-classification-on-imagenet-fs?p=kgtn-ens-few-shot-image-classification-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/kgtn-ens-few-shot-image-classification-with/few-shot-image-classification-on-imagenet-fs-1)](https://paperswithcode.com/sota/few-shot-image-classification-on-imagenet-fs-1?p=kgtn-ens-few-shot-image-classification-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/kgtn-ens-few-shot-image-classification-with/few-shot-image-classification-on-imagenet-fs-2)](https://paperswithcode.com/sota/few-shot-image-classification-on-imagenet-fs-2?p=kgtn-ens-few-shot-image-classification-with)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/kgtn-ens-few-shot-image-classification-with/few-shot-image-classification-on-imagenet-fs-3)](https://paperswithcode.com/sota/few-shot-image-classification-on-imagenet-fs-3?p=kgtn-ens-few-shot-image-classification-with)
+
 This is the implementation for the [KGTN-ens paper, published in Applied Intelligence]([https://arxiv.org/abs/2211.03199](https://link.springer.com/article/10.1007/s10489-023-05129-8)).
 
 <p align="center">
